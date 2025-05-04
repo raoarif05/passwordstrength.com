@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up Page with Password Strength Indicator | CodeVerse Studio</title>
+  <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="stylesheet" href="assets/fonts/remixicon.css">
+</head>
+<body>
+
+  <div class="signup-container">
+    <div class="header">
+        <h1>Welcome!</h1>
+        <p>We're excited to have you join us. Sign up to get started.</p>
+    </div>
+
+    <form>
+      <div class="input_box">
+        <i class="ri-user-line form_icon"></i>
+        <input type="text" placeholder="Full Name" required />
+      </div>
+      <div class="input_box">
+        <i class="ri-mail-line form_icon"></i>
+        <input type="email" placeholder="Email Address" required />
+      </div>
+      <div class="input_box" id="passWordInput">
+        <i class="ri-lock-line form_icon"></i>
+        <input id="password" type="password" placeholder="Password" required />
+      </div>
+      <!-- <p id="message">Password is <span id="strength"></span></p> -->
+      <p id="message">Type Your Password Above</p>
+      <button type="submit">Create Account</button>
+    </form>
+
+    <div class="footer">
+      Already have an account? <a href="#">Log In</a>
+    </div>
+  </div>
+
+  <!-- ===== JS FILE ===== -->
+   <script src="assets/js/script.js"></script>
+</body>
+</html>
